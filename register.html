@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="2.css">
+</head>
+<body>
+  <form action="/registro" method="post" class="register-form">
+    <h2>Regístrate para ver fotos y vídeos de tus amigos</h2>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br>
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br>
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="contraseña">Contraseña:</label><br>
+    <input type="password" id="contraseña" name="contraseña" required><br>
+    <input type="checkbox" id="condiciones" name="condiciones" required>
+    <label for="condiciones">Acepto las <a href="/condiciones">Condiciones</a>, la <a href="/privacidad">Política de privacidad</a> y la <a href="/cookies">Política de cookies</a>.</label><br>
+    <input type="submit" value="Registrarse">
+  </form>
+
+  <p>¿Ya tienes una cuenta? <a href="/entrar">Entrar</a></p>
+</body>
+</html>
